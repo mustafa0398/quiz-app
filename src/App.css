@@ -1,0 +1,106 @@
+/* App.css */
+
+body {
+  font-family: 'Roboto', sans-serif; 
+  background-color: #c4e1cd; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  background-color: #ffffff; 
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); 
+  max-width: 600px; 
+  width: 100%;
+  border: 2px solid #00796b; 
+}
+
+h1 {
+  color: #00796b; 
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #37474f; 
+}
+
+h3 {
+  color: #00796b; 
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 30px; 
+  cursor: pointer;
+  margin: 15px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #004d40; 
+}
+
+p {
+  color: #37474f; 
+  margin-bottom: 15px;
+}
+
+.timer {
+  font-size: 18px;
+  color: #e64a19; 
+  font-weight: bold;
+}
+
+.question-container {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.answer-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.answer-button:hover {
+  background-color: #004d40;
+}
+
+.correct {
+  background-color: #4caf50; 
+}
+
+.wrong {
+  background-color: #f44336; 
+}
+
+.results {
+  background-color: #e0f2f1; 
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #00796b;
+  margin: 20px 0;
+}
